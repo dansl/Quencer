@@ -1,4 +1,5 @@
 Quencer v0.1 - Image Sequencer for Javascript  
+https://github.com/dansl/Quencer  
   
 By: Dansl.net  
   

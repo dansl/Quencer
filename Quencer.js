@@ -1,6 +1,7 @@
 /*
  Quencer v0.1 - Image Sequencer for Javascript
  By: Dansl.net
+ https://github.com/dansl/Quencer
 */
 
 function Quencer(_imagePrefix, _format, _frameWidth, _frameHeight, _totalFrames, _speed, _stylingClass){
