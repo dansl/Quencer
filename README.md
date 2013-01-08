@@ -4,27 +4,21 @@ https://github.com/dansl/Quencer
 By: Dansl.net  
   
 Example:
-Div in DOM with ID "exampleDiv", this is the div the animation will be placed, use this div to position the animation.
 ```javascript
+//Div in DOM with ID "exampleDiv", this is the div the animation will be placed, use this div to position the animation.
 var exampleDiv = document.getElementById("exampleDiv");
-```
-  
-Reference: Quencer(_imagePrefix, _format, _frameWidth, _frameHeight, _totalFrames, _speed, _stylingClass)
-```javascript
+
+//Reference: Quencer(_imagePrefix, _format, _frameWidth, _frameHeight, _totalFrames, _speed, _stylingClass)
 var exampleSequence = new Quencer("images/introSequence/introSequenceStart", ".png", 281, 168, 79, 50, "");
-```
-
-Add event listener for oncomplete, calls "exampleFuntion" when animation completes
-```javascript
+  
+//Add event listener for oncomplete, calls "exampleFunction" when animation completes
 exampleSequence.addEventListener("complete", exampleFunction);
-```
-
-Adds animation to the div
-```javascript
+  
+//Adds animation to the div
 exampleSequence.AddTo(exampleDiv);
 ```
   
-Plays animation
+Run animation
 ```javascript
 //Without looping
 exampleSequence.RunAni(); 
